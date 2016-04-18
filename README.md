@@ -1,5 +1,11 @@
 # wwl-node-filter-registry
 
+| Current Version |
+|-----------------|
+| [![npm version](https://badge.fury.io/js/wwl-js-filter-registry.svg)](https://badge.fury.io/js/wwl-js-filter-registry) |
+
+---
+
 The filter registry is a collection wrapper to white- and blacklist it's entries. By calling ```get``` and passing a key, the registry will filter it's entries based on the regular expressions listed in the whitelist and blacklist. Additionally, you can pass filter keys on top.
 
 A whitelist/blacklist for one entry can have multiple regex statements.
